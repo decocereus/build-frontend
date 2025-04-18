@@ -1,0 +1,36 @@
+{
+  "name": "build-frontend",
+  "version": "1.0.0",
+  "description": "CLI to bootstrap a Next.js app with Tailwind, shadcn, Zustand, and Datadog",
+  "bin": {
+    "build-frontend": "./bin/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build && chmod +x bin/index.js"
+  },
+  "keywords": [
+    "cli",
+    "nextjs",
+    "typescript",
+    "zustand",
+    "datadog",
+    "shadcn",
+    "tailwind"
+  ],
+  "author": "Amartya Singh",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cli-progress": "^3.12.0",
+    "execa": "^8.0.1",
+    "inquirer": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.6",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^22.14.1",
+    "typescript": "^5.8.3"
+  }
+}
