@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "CLI to bootstrap a Next.js app with Tailwind, shadcn, Zustand, and Datadog",
   "bin": {
-    "build-frontend": "./bin/index.js"
+    "build-frontend": "bin/index.js"
   },
   "type": "module",
   "scripts": {
