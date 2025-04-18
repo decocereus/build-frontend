@@ -11,16 +11,18 @@ A powerful CLI tool to bootstrap modern Next.js applications with best-in-class 
 - 📈 Datadog monitoring integration
 - ⚡️ Modern development experience
 
-## Installation
-
-```bash
-npm install -g build-frontend
-```
-
 ## Usage
 
+Create a new project by running:
+
 ```bash
-build-frontend
+npx build-frontend
+```
+
+Or specify a project name directly:
+
+```bash
+npx build-frontend my-app
 ```
 
 This will start an interactive CLI that will guide you through the process of creating your new Next.js application with all the configured technologies.
